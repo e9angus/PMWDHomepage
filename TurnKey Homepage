@@ -1,0 +1,88 @@
+<!-- Rough Homepage Wireframe (Black and White Layout) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Property Management Platform</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #fff; color: #333; }
+    header, section, footer { padding: 2rem; text-align: center; }
+    .hero { background: #f5f5f5; padding: 4rem 2rem; }
+    .path-selection { display: flex; justify-content: center; gap: 2rem; margin: 3rem 0; flex-wrap: wrap; }
+    .card { border: 2px dashed #ccc; padding: 2rem; width: 280px; cursor: pointer; transition: 0.3s; }
+    .card:hover { border-color: #999; background: #f0f0f0; }
+    .how-it-works { background: #f9f9f9; margin: 3rem 0; }
+    .steps { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; }
+    .step { border: 1px solid #ddd; padding: 1.5rem; width: 200px; }
+    footer { background: #333; color: #fff; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Property Maintenance Made Easy.</h1>
+    <p>Landlords, Homeowners, and Vendors — Welcome Home.</p>
+    <a href="#choose-path" style="display:inline-block;margin-top:1rem;padding:0.75rem 1.5rem;background:black;color:white;text-decoration:none;">Get Started</a>
+  </header>
+
+  <!-- Choose Your Path Section -->
+  <section id="choose-path">
+    <h2>Choose Your Path</h2>
+    <div class="path-selection">
+
+      <div class="card">
+        <h3>I’m a Landlord</h3>
+        <p>Manage repairs & maintenance smarter.</p>
+        <button>Manage My Properties</button>
+      </div>
+
+      <div class="card">
+        <h3>I’m a Homeowner</h3>
+        <p>Book trusted services for your home.</p>
+        <button>Request a Service</button>
+      </div>
+
+      <div class="card">
+        <h3>I’m a Vendor</h3>
+        <p>Get more local jobs — paid fast.</p>
+        <button>Become a Vendor</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h4>Step 1</h4>
+        <p>Sign Up</p>
+      </div>
+      <div class="step">
+        <h4>Step 2</h4>
+        <p>Match with the right service</p>
+      </div>
+      <div class="step">
+        <h4>Step 3</h4>
+        <p>Relax, we've got it covered</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About/Trust Section -->
+  <section>
+    <h2>Why Trust Us?</h2>
+    <p>Turn Key Management Group delivers reliable service, trusted professionals, and a smarter way to maintain properties.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Turn Key Management Group &copy; 2025 | Contact | Privacy Policy</p>
+  </footer>
+
+</body>
+</html>
